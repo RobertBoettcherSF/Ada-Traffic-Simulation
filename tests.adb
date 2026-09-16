@@ -22,7 +22,7 @@ procedure Tests is
 
    -- Test Variables
    Micro_State : Microscopic_State;
-   Behavior    : Driver_Behavior := 
+   Behavior    : constant Driver_Behavior := 
      (Desired_Speed     => 30.0,
       Safe_Time_Headway => 2.0,
       Max_Acceleration  => 2.0,
